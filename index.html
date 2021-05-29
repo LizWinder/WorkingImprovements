@@ -23,8 +23,181 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     
 </head>
+  
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">        
+                        <a href="#" class="active">Home</a>
+<a href="#services">Services</a>               <a href="#about">About</a>
+<a href="#contact">Contact Us</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+<i class="fa fa-bars"></i>
+</a>
+</div> 
+  <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Working Improvements </h1><p></p>
+                <p>Using data and science to improve productivity</p>
+               
+            </div>
+        </div>
+    </header>
+
+	<!-- Intro Section -->
+    <section class="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                	<span class="glyphicon glyphicon-apple" style="font-size: 60px"></span>
+                    <h2 class="section-heading">Welcome to Working Improvements</h2>
+                    <p class="text-light">Working Improvements delivers continuous improvement to how a workplace does things, or who is doing it, using data for best results.               Scroll down to look at the services we provide and how to get in touch. <p></p><a href="#contact" class="btn btn-primary btn-lg">Contact Us</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<!-- Content 1 -->
+    <section class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img class="img-responsive img-circle center-block" src="images/microphone.jpg" alt="">
+                </div>
+                <div class="col-sm-6"             class="section-header" id="services">
+                	</br></br><h2 >Services</h2>
+                	<p class="lead text-muted">Below are the Working Improvement services that all <i>use data and science to improve productivity</i>.  <a href="#contact" class="btn btn-primary btn-lg">Contact Us</a> for a tailored solution.
+                </div>                
+                
+            </div>
+        </div>
+    </section>
 
 	
+    <!-- Promos -->
+	<div class="container-fluid">
+        <div class="row promo">
+        	<a href="#">
+				<div class="col-md-4 promo-item item-1">
+					<h3>
+						Lean Six Sigma Process Improvement
+					</h3> <p> Applying statistics, tools and techniques to improve
+
+how things work </p>
+				</div>
+            </a>
+            <a href="#">
+				<div class="col-md-4 promo-item item-2">
+					<h3>
+						Employee Engagement and Behaviour Change
+					</h3>
+          <p> Applying the science of psychology for improvements with
+
+who is doing the work </p>
+				</div>
+            </a>
+			
+			<a href="#">
+				<div class="col-md-4 promo-item item-3">
+          <h3></br>
+						Data Analysis
+					</h3><p> Whether tracking metrics, proving the success of a change,
+
+or making predictions,
+
+          data backs up theory with evidence </P>
+				</div>
+            </a>
+        </div>
+    </div><!-- /.container-fluid -->
+
+  <!-- Content 2 -->
+     <section class="content content-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6" class="section-header" id="about">
+                  </br></br><h2 >About</h2>
+                	<p class="lead text-light">Working Improvements Ltd was founded by Elizabeth Winder, who saw that businesses face challenges with embedding change, and identifying improvements beyond what was immediately there.  Working Improvements Ltd uses science and data to overcome these challenges by moving beyond the perception of a single individual.  This broader perspective delivers powerful solutions.<p></p>
+<a href="https://www.linkedin.com/in/elizabeth-winder/">Find the founder on LinkedIN</a>
+</p>
+                </div>    
+                <div class="col-sm-6">
+                    <img class="img-responsive img-circle center-block" src="images/iphone.jpg" alt="">
+                </div>            
+                
+            </div>
+        </div>
+    </section> 
+  
+    
+	<!-- Footer -->
+    <footer class="page-footer">
+    
+    	<!-- Contact Us -->
+        <div class="contact">
+        	<div class="container" class="section-heading" id="contact">
+            </br></br><h2 >Contact Us</h2>
+				
+          <form action="//submit.form" id="ContactUs" method="post" onsubmit="return ValidateForm(this);">
+<script type="text/javascript">
+function ValidateForm(frm) {
+if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
+if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
+if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
+if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
+return true; }
+</script>
+<table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
+<tr> <td>
+<label for="Name">Name*:</label>
+</td> <td>
+<input name="Name" type="text" maxlength="60" style="width:100%;max-width:250px;" />
+</td> </tr> <tr> <td>
+<label for="FromEmailAddress">Email address*:</label>
+</td> <td>
+<input name="FromEmailAddress" type="text" maxlength="90" style="width:100%;max-width:250px;" />
+</td> </tr> <tr> <td>
+<label for="Comments">Comments*:</label>
+</td> <td>
+<textarea name="Comments" rows="7" cols="40" style="width:100%;max-width:350px;"></textarea>
+</td> </tr> <tr> <td>
+
+</td> <td>
+<div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">* - required fields</a></div>
+<input name="skip_Submit" type="submit" value="Submit" />
+<script src="https://www.100forms.com/js/FORMKEY:78AG5URZS3F8/SEND:liz@elizabethwinder.com" type="text/javascript"></script>
+</td> </tr>
+</table>
+</form>
+        </div>
+        	
+        <!-- Copyright etc -->
+        <div class="small-print">
+        	<div class="container">
+        		<p>Copyright &copy; Working Improvements Ltd. 2021</p>
+        	</div>
+        </div>
+        
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    
+    <!-- Custom Javascript -->
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
+
 <style>
 	 html,
 body {
@@ -347,180 +520,7 @@ z-index: 1}
   }
 } 
 	</style>
-  
-  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<div class="topnav" id="myTopnav">        
-                        <a href="#" class="active">Home</a>
-<a href="#services">Services</a>               <a href="#about">About</a>
-<a href="#contact">Contact Us</a>
-<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-<i class="fa fa-bars"></i>
-</a>
-</div> 
-  <!-- Header -->
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1>Working Improvements </h1><p></p>
-                <p>Using data and science to improve productivity</p>
-               
-            </div>
-        </div>
-    </header>
-
-	<!-- Intro Section -->
-    <section class="intro">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                	<span class="glyphicon glyphicon-apple" style="font-size: 60px"></span>
-                    <h2 class="section-heading">Welcome to Working Improvements</h2>
-                    <p class="text-light">Working Improvements delivers continuous improvement to how a workplace does things, or who is doing it, using data for best results.               Scroll down to look at the services we provide and how to get in touch. <p></p><a href="#contact" class="btn btn-primary btn-lg">Contact Us</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-	<!-- Content 1 -->
-    <section class="content">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <img class="img-responsive img-circle center-block" src="images/microphone.jpg" alt="">
-                </div>
-                <div class="col-sm-6"             class="section-header" id="services">
-                	</br></br><h2 >Services</h2>
-                	<p class="lead text-muted">Below are the Working Improvement services that all <i>use data and science to improve productivity</i>.  <a href="#contact" class="btn btn-primary btn-lg">Contact Us</a> for a tailored solution.
-                </div>                
-                
-            </div>
-        </div>
-    </section>
-
-	
-    <!-- Promos -->
-	<div class="container-fluid">
-        <div class="row promo">
-        	<a href="#">
-				<div class="col-md-4 promo-item item-1">
-					<h3>
-						Lean Six Sigma Process Improvement
-					</h3> <p> Applying statistics, tools and techniques to improve
-
-how things work </p>
-				</div>
-            </a>
-            <a href="#">
-				<div class="col-md-4 promo-item item-2">
-					<h3>
-						Employee Engagement and Behaviour Change
-					</h3>
-          <p> Applying the science of psychology for improvements with
-
-who is doing the work </p>
-				</div>
-            </a>
-			
-			<a href="#">
-				<div class="col-md-4 promo-item item-3">
-          <h3></br>
-						Data Analysis
-					</h3><p> Whether tracking metrics, proving the success of a change,
-
-or making predictions,
-
-          data backs up theory with evidence </P>
-				</div>
-            </a>
-        </div>
-    </div><!-- /.container-fluid -->
-
-  <!-- Content 2 -->
-     <section class="content content-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6" class="section-header" id="about">
-                  </br></br><h2 >About</h2>
-                	<p class="lead text-light">Working Improvements Ltd was founded by Elizabeth Winder, who saw that businesses face challenges with embedding change, and identifying improvements beyond what was immediately there.  Working Improvements Ltd uses science and data to overcome these challenges by moving beyond the perception of a single individual.  This broader perspective delivers powerful solutions.<p></p>
-<a href="https://www.linkedin.com/in/elizabeth-winder/">Find the founder on LinkedIN</a>
-</p>
-                </div>    
-                <div class="col-sm-6">
-                    <img class="img-responsive img-circle center-block" src="images/iphone.jpg" alt="">
-                </div>            
-                
-            </div>
-        </div>
-    </section> 
-  
-    
-	<!-- Footer -->
-    <footer class="page-footer">
-    
-    	<!-- Contact Us -->
-        <div class="contact">
-        	<div class="container" class="section-heading" id="contact">
-            </br></br><h2 >Contact Us</h2>
-				
-          <form action="//submit.form" id="ContactUs" method="post" onsubmit="return ValidateForm(this);">
-<script type="text/javascript">
-function ValidateForm(frm) {
-if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
-if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
-if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
-if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
-return true; }
-</script>
-<table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
-<tr> <td>
-<label for="Name">Name*:</label>
-</td> <td>
-<input name="Name" type="text" maxlength="60" style="width:100%;max-width:250px;" />
-</td> </tr> <tr> <td>
-<label for="FromEmailAddress">Email address*:</label>
-</td> <td>
-<input name="FromEmailAddress" type="text" maxlength="90" style="width:100%;max-width:250px;" />
-</td> </tr> <tr> <td>
-<label for="Comments">Comments*:</label>
-</td> <td>
-<textarea name="Comments" rows="7" cols="40" style="width:100%;max-width:350px;"></textarea>
-</td> </tr> <tr> <td>
-
-</td> <td>
-<div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">* - required fields</a></div>
-<input name="skip_Submit" type="submit" value="Submit" />
-<script src="https://www.100forms.com/js/FORMKEY:78AG5URZS3F8/SEND:liz@elizabethwinder.com" type="text/javascript"></script>
-</td> </tr>
-</table>
-</form>
-        </div>
-        	
-        <!-- Copyright etc -->
-        <div class="small-print">
-        	<div class="container">
-        		<p>Copyright &copy; Working Improvements Ltd. 2021</p>
-        	</div>
-        </div>
-        
-    </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery-1.11.3.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    
-    <!-- Custom Javascript -->
-    <script src="js/custom.js"></script>
-
-</body>
-
-</html>
 <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
 <script>
 function myFunction() {
